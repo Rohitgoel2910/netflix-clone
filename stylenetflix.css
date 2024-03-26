@@ -1,0 +1,220 @@
+*{
+    margin :0;
+    font-family:Helvetica, sans-serif;
+    border: border-box;
+    
+}
+.box1{
+    height: 700px;
+    width: 100%;
+    border-bottom: 8px solid rgb(54, 51, 51);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(netflix1.jpg);
+    background-size: cover;
+}
+.box1content{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.box1 img{
+    width: 148px;
+    height: 40px;
+    padding: 30px 120px;
+}
+.sign-in{
+    display: flex;
+    margin-right: 100px;
+    margin-top: -60px;
+    position: absolute;
+    right: 100px;
+    background-color: #E50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 20px;
+    /* height: 24px; */
+    /* width: 45px; */
+}
+.box1hcontent {
+    height: 124px;
+    display: flex;
+    justify-content: center;
+    margin:120px 30px;
+}
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    
+}
+.box1content1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: -100px;
+}
+.box1content2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.box1content3 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.box1content3 input{
+    background-color: transparent;
+    /* border: none; */
+    width: 300px;
+    border-radius: 5px;
+    border: 0.5px solid silver;
+    background-color: rgba(34, 33, 33, 0.596);
+    padding: 16px 12px 16px;
+    margin-right: 10px;
+}
+.box1content3 button{
+    background-color: rgb(229, 9, 20);;
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px 12px 16px;
+    border: none;
+}
+.box2{
+    background-color: black;
+    height: 520px;
+    border-bottom: 8px solid rgb(54, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2content{
+    color: white;
+    margin: 0px 32px;
+    padding: 0px 0px 0px 6px;
+    height: 192px;
+    width: 460px;
+}
+.box2content1{
+    font-size: 45px;
+    font-weight:900;
+}
+.box2content2{
+    font-size: 24px;
+    margin: 16px 0px 0px 0px;
+}
+.box2img img{
+    height: 340px;
+}
+.box3{
+    height: 870px;
+    background-color: black;
+    border-bottom: 8px solid rgb(54, 51, 51);
+    padding: 72px 0px;
+    color: white;
+}
+.box3content1 {
+    font-size: 48px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.box3content2{
+    margin-top: 20px;
+    /* margin: 30px auto; */
+}
+.box3content2 ul{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    
+}
+.box3content2 ul label{
+    width: 100%;
+    max-width: 1000px;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 30px;
+    background-color: #303030;
+    /* margin-bottom: 0px; */
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 200px;
+}
+input[type="radio"] {
+    display: none;
+}
+.box3content3{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.box3content4{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 20px;
+    margin-top: 40px;
+}
+.box3content4 input{
+    width: 300px;
+    border-radius: 5px;
+    border: white;
+    background-color: rgb(34, 33, 33);
+    padding: 16px 12px 16px;
+    margin-right: 10px;
+}
+.box3content4 button{
+    background-color: rgb(229, 9, 20);;
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px 12px 16px;
+}
+.footbox{
+    height: 320px;
+    background-color: black;
+    color: #FFFFFFB3;
+    padding: 60px 0px;
+}
+.footbox1{
+    height: 44px;
+    margin: 0px 160px;
+}
+.footbox2 {
+    height: 201px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    left:120px;
+}
+.footbox2 ul a{
+    color: #FFFFFFB3;
+    font-size: 14px;
+    display: block;
+    margin-top: 13px;
+    margin-right: 200px;
+}
+.lastline{
+    position: absolute;
+    left:160px;
+    margin-top: 250px;
+}
